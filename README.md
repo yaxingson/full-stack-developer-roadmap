@@ -58,6 +58,8 @@ String.fromCharCode(39) // '
 
 ## CSRF
 
+> cookie
+
 - GET型攻击
 
 - POST型攻击
@@ -69,6 +71,8 @@ String.fromCharCode(39) // '
 ## 文件上传漏洞
 
 > window系统文件命名规范
+
+防范: 权限防御、随机生成文件名
 
 
 
