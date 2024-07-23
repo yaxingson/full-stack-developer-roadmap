@@ -28,3 +28,49 @@ cache:<url>
 
 
 ```
+
+## web安全
+
+### XSS
+
+> 网络钓鱼攻击
+
+- 存储型攻击
+
+- 反射型攻击
+
+```html
+<div style="width: expression(alert(0))"></div>
+
+<a href="java
+script: alert(0)"></a>
+
+```
+
+```js
+String.fromCharCode(34) // "
+
+String.fromCharCode(39) // '
+
+```
+
+防范: 过滤、转义
+
+## CSRF
+
+- GET型攻击
+
+- POST型攻击
+
+防范: referer头字段、token
+
+## SQL注入
+
+## 文件上传漏洞
+
+
+
+
+
+
+
