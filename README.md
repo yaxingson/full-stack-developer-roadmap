@@ -108,9 +108,64 @@ String.fromCharCode(39) // '
 
 ### 自动化
 
+[ledge平台](https://devops.phodal.com/home)
+
+<img src="https://www.delta-n.nl/wp-content/uploads/2019/07/DevOps-Pipeline-800.png" width="500" />
+
 #### 持续集成
 
 #### 持续部署
+
+## Chrome浏览器
+
+[console-importer插件](https://github.com/pd4d10/console-importer)
+
+自定义打印页面样式：
+
+```css
+@page {
+  size: A3 landscape;
+  margin: 3.7cm 2.6cm 3.5cm;
+
+  @bottom-left, @bottom-right {
+  
+  }
+
+  @bottom-center {
+
+  }
+}
+
+@media print {
+  div {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  a::after {
+    content: attr(href);
+  }
+}
+
+```
+
+```html
+<link rel="stylesheet" type="text/css" src="style.css" media="print" />
+
+```
+
+阻止打印当前页面:
+
+```js
+window.addEventListener('beforeprint', ()=>{})
+
+window.matchMedia('print').addListener(()=>{
+
+})
+
+```
+
+
 
 ## 个人技术品牌
 
