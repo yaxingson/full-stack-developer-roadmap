@@ -129,6 +129,11 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 #### 持续部署
 
+## 性能
+
+> Nobundle
+
+
 ## Chrome浏览器
 
 [console-importer插件](https://github.com/pd4d10/console-importer)
