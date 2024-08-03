@@ -12,10 +12,12 @@
 
 知识体系：
 
-- 整理法: 顺序关系、组合关系、维度关系和分类关系
+- 整理法(脑图): 顺序关系、组合关系、维度关系和分类关系
 - 追溯法
 
 [whatwg](https://whatwg.org/)
+
+[ecma-262](https://262.ecma-international.org/15.0/index.html)
 
 ## 微前端
 
@@ -108,6 +110,8 @@ String.fromCharCode(39) // '
 > SDK
 
 ### 架构
+
+BFF(Backends For Frontends，服务于前端的后端)
 
 #### 技术选型
 
