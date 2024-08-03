@@ -1,4 +1,4 @@
-# web-development-roadmap
+ # web-development-roadmap
 
 > 非线性成长
 
@@ -133,7 +133,19 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 ## 性能
 
-> Nobundle
+> Bundleless
+
+用户体验指标:
+
+- `TTI`
+- `FID`
+- `TBT`
+- `FP`
+- `FCP`
+- `LCP`
+- `CLS`
+
+获取用户数据指标的方式: Devtools、Lighthouse、浏览器插件和PerformanceAPI
 
 
 ## Chrome浏览器
