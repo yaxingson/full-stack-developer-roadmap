@@ -13,11 +13,13 @@
 知识体系：
 
 - 整理法(脑图): 顺序关系、组合关系、维度关系和分类关系
-- 追溯法
+- 追溯(追本溯源)法：论文、邮件列表讨论和代码提交记录
 
 [whatwg](https://whatwg.org/)
 
 [ecma-262](https://262.ecma-international.org/15.0/index.html)
+
+> UMD模块化
 
 ## 微前端
 
