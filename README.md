@@ -199,7 +199,11 @@ window.matchMedia('print').addListener(()=>{
 
 ```
 
+## 阅读源码
 
+[github1s](https://github1s.com/)
+
+**费曼学习法**
 
 ## 个人技术品牌
 
@@ -207,7 +211,7 @@ window.matchMedia('print').addListener(()=>{
 
 **画白板和作品集**
 
-> RSS订阅
+> RSS订阅和技术影响力
 
 ## 软技能
 
