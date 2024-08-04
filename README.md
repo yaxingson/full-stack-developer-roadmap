@@ -19,6 +19,8 @@
 
 [ecma-262](https://262.ecma-international.org/15.0/index.html)
 
+无障碍富互联网应用（Accessible Rich Internet Applications，ARIA）
+
 > UMD模块化
 
 ## 微前端
