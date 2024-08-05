@@ -149,6 +149,15 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 获取用户数据指标的方式: Devtools、Lighthouse、浏览器插件和PerformanceAPI
 
+### 代码质量
+
+> 富客户端
+
+提升用户体验的方法:
+
+- 及时反馈和提示
+- 兜底措施
+
 
 ## Chrome浏览器
 
