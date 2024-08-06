@@ -216,13 +216,45 @@ window.matchMedia('print').addListener(()=>{
 
 ## 个人技术品牌
 
-> 技术概括分享、博客、书籍和会议文档写作
+> 技术概括分享、博客、书籍和会议文档[^1]写作
 
 **画白板和作品集**
 
 > RSS订阅和技术影响力
 
+Markdown规范:
+
+- [CommonMark规范](https://spec.commonmark.org/0.31.2/)
+- [Github规范](https://github.github.com/gfm/)
+- [Typora规范](https://support.typora.io/)
+
+```sh
+# 安装markdown解析器
+npm i markdown-it -D
+
+find path -name pattern
+
+hexdump file -C -n 1024
+
+2 > file
+
+& > file
+
+```
+
+<https://www.tablesgenerator.com/>
+
+<https://ohmyz.sh/>
+
+<https://explainshell.com/>
+
+<https://imagemagick.org/script/download.php>
+
 ## 软技能
 
 > 自驱
+
+--- 
+
+[^1]: 略...
 
