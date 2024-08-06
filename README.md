@@ -50,6 +50,19 @@ cache:<url>
 
 ## web网络和安全
 
+```sh
+nc 92.168.19.10 80
+
+# -i 显示响应头
+# -v 显示详细信息
+# -X 指定请求方法
+# -d 指定请求体
+curl "https://httpbin.org/post" -i -v -X POST -d "username=rose"
+
+```
+
+> Dos攻击
+
 ### XSS
 
 > 网络钓鱼攻击
@@ -207,6 +220,31 @@ window.matchMedia('print').addListener(()=>{
 })
 
 ```
+
+## Git & Github
+
+```sh
+git diff 
+
+git rm --cached
+
+git check-ignore -v file
+
+git log --stat
+
+git show <id>
+
+git show-branch
+
+```
+
+[.gitignore模板](https://github.com/github/gitignore)
+
+[commit message规范](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
+[semver规范](https://semver.org/lang/zh-CN/)
+
+> 裸版本库
 
 ## 阅读源码
 
