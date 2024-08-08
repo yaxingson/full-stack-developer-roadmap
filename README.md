@@ -246,11 +246,43 @@ git show-branch
 
 > 裸版本库
 
-## 阅读源码
+## 开源
 
 [github1s](https://github1s.com/)
 
 **费曼学习法**
+
+解决Github托管平台的DNS服务器污染问题:
+
+- 更新DNS服务器（`223.5.5.5`或`223.6.6.6`）
+- 配置本地静态映射hosts
+
+```txt
+140.82.112.3 github.com
+140.82.112.3 www.github.com
+199.232.68.133 raw.github.com
+
+```
+
+[在线域名ip查询](https://www.ipaddress.com/ip-lookup)
+
+<https://github.com/search/advanced>
+
+### issues
+
+> good-first-issue
+
+### pull requests
+
+```sh
+git commit -s -m <message>
+
+git cherry-pick id
+
+```
+
+### wiki
+
 
 ## 个人技术品牌
 
