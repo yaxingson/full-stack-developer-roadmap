@@ -248,6 +248,8 @@ git show-branch
 
 ## 开源
 
+> 开源(open source) vs. 自由(free)
+
 [github1s](https://github1s.com/)
 
 **费曼学习法**
@@ -268,11 +270,21 @@ git show-branch
 
 <https://github.com/search/advanced>
 
-### issues
+> github cli
+
+开源许可证(LICENSE):
+
+- GPL
+- Unlicense
+
+<https://creativecommons.org/share-your-work/cclicenses/>
+<https://creativecommons.org/licenses/by/4.0/legalcode.txt>
+
+### issue
 
 > good-first-issue
 
-### pull requests
+### pull request
 
 ```sh
 git commit -s -m <message>
@@ -281,9 +293,11 @@ git cherry-pick id
 
 ```
 
+> 代码评审（code review）
+
 ### wiki
 
-> github cli
+### discussion
 
 
 ## 个人技术品牌
