@@ -283,6 +283,8 @@ git cherry-pick id
 
 ### wiki
 
+> github cli
+
 
 ## 个人技术品牌
 
