@@ -162,6 +162,12 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 获取用户数据指标的方式: Devtools、Lighthouse、浏览器插件和PerformanceAPI
 
+CDN:
+
+- [jsdelivr](https://www.jsdelivr.com/)
+- [unpkg](https://unpkg.com/)
+- [cdnjs](https://cdnjs.com/)
+
 ### 代码质量
 
 > 富客户端
@@ -172,6 +178,9 @@ BFF(Backends For Frontends，服务于前端的后端)
 - 兜底措施
 
 ### 工程化
+
+> 工具链(toolchain)包括: parser、transformer、resolver、 linter、formatter和minifier等
+
 
 ### Ajax
 
@@ -230,6 +239,12 @@ window.matchMedia('print').addListener(()=>{
 })
 
 ```
+
+## 标准和规范
+
+<https://tc39.es/>
+
+<https://www.w3.org/>
 
 ## Git & Github
 
@@ -345,6 +360,8 @@ hexdump file -C -n 1024
 <https://explainshell.com/>
 
 <https://imagemagick.org/script/download.php>
+
+> 播客
 
 ## 软技能
 
