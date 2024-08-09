@@ -173,6 +173,13 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 ### 工程化
 
+### Ajax
+
+> REST(REpresentational State Transfer, 表现层状态转换)
+
+- [XMLHttpRequest](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest)
+
+- [fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/fetch)
 
 
 ## Chrome浏览器
