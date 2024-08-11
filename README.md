@@ -23,7 +23,13 @@
 
 > UMD模块化
 
+[browserslist](https://browsersl.ist/)
+
 ## 微前端
+
+<https://single-spa.js.org/>
+
+<https://qiankun.umijs.org/zh>
 
 ## Chrome搜索技巧
 
