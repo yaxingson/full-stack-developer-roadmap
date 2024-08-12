@@ -187,6 +187,12 @@ CDN:
 
 > 工具链(toolchain)包括: parser、transformer、resolver、 linter、formatter和minifier等
 
+**AI赋能**和**定制化脚手架**
+
+```sh
+npm link
+
+```
 
 ### Ajax
 
@@ -195,6 +201,10 @@ CDN:
 - [XMLHttpRequest](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest)
 
 - [fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/fetch)
+
+## 编译原理
+
+<https://astexplorer.net/>
 
 
 ## Chrome浏览器
@@ -253,6 +263,8 @@ window.matchMedia('print').addListener(()=>{
 <https://www.w3.org/>
 
 ## Git & Github
+
+> github copilot 
 
 ```sh
 git diff 
