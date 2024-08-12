@@ -56,6 +56,22 @@ cache:<url>
 
 ## web网络和安全
 
+<http://test-ipv6.com/>
+
+相关概念:
+
+- 局域网和公网
+- 网关
+- 子网
+
+回环地址: `127.0.0.1`、`::1` 或 `localhost`
+
+> TCP/IP四层模型
+
+[域名注册商](https://www.cloudflare-cn.com/)
+
+DNS服务的端口号: TCP/UDP 53
+
 ```sh
 nc 92.168.19.10 80
 
@@ -65,9 +81,13 @@ nc 92.168.19.10 80
 # -d 指定请求体
 curl "https://httpbin.org/post" -i -v -X POST -d "username=rose"
 
+ping6 -c 4 fe80::f2de:f1ff:fe3f:307e
+
+nslookup -query=txt www.baidu.com
+
 ```
 
-> Dos攻击
+> Dos攻击和中间人攻击
 
 ### XSS
 
@@ -123,6 +143,8 @@ String.fromCharCode(39) // '
 #### 防火墙
 
 ### VPN
+
+> TLS证书和CA、mTLS
 
 ## 研发流程
 
