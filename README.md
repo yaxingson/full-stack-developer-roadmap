@@ -31,6 +31,25 @@
 
 <https://qiankun.umijs.org/zh>
 
+## 后端服务
+
+> 分布式架构
+
+```js
+const cluster = require('node:cluster')
+const numCPUs = require('node:os').availableParallelism()
+
+if(cluster.isPrimary) {
+
+ cluster.on('exit', ()=>{
+  
+ })
+} else {
+
+}
+
+```
+
 ## Chrome搜索技巧
 
 > 浏览器扩展插件: vimium
