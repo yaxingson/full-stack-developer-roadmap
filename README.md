@@ -129,6 +129,8 @@ String.fromCharCode(34) // "
 
 String.fromCharCode(39) // '
 
+Object.freeze()
+
 ```
 
 防范: 过滤、转义
