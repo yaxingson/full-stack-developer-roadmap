@@ -10,7 +10,7 @@
 
 **领域知识**
 
-知识体系：
+技术体系：
 
 - 整理法(脑图): 顺序关系、组合关系、维度关系和分类关系
 - 追溯(追本溯源)法：论文、邮件列表讨论和代码提交记录
@@ -31,7 +31,7 @@
 
 <https://qiankun.umijs.org/zh>
 
-## 后端服务
+## 云服务
 
 > 分布式架构
 
@@ -49,6 +49,13 @@ if(cluster.isPrimary) {
 }
 
 ```
+
+云存储: 对象存储(OSS)和文件存储(NAS)
+
+[七牛云](https://www.qiniu.com/)
+
+## AI助手
+
 
 ## Chrome搜索技巧
 
@@ -231,7 +238,7 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 ## 性能
 
-> Bundleless
+> 垃圾回收、时间切片(Time Slicing)和Bundleless
 
 用户体验指标:
 
