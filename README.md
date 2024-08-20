@@ -348,6 +348,8 @@ window.matchMedia('print').addListener(()=>{
 
 ## Git & Github
 
+Git工作流
+
 > github copilot 
 
 ```sh
@@ -356,12 +358,22 @@ git diff
 git rm --cached
 
 git check-ignore -v file
+git chery-pick <commitHash> 
 
 git log --stat
 
 git show <id>
 
 git show-branch
+
+git add -A
+git commit --amend --no-edit
+git push origin --delete main 
+
+git rebase
+
+git stash save
+git stash pop
 
 ```
 
