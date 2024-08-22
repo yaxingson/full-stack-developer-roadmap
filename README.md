@@ -226,6 +226,15 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 #### 构建和部署
 
+
+### 测试
+
+#### 单元测试
+
+#### e2e测试
+
+> headless chrome 
+
 ### 自动化
 
 [ledge平台](https://devops.phodal.com/home)
