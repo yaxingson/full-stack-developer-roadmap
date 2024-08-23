@@ -25,6 +25,8 @@
 
 [browserslist](https://browsersl.ist/)
 
+> 经验性知识和原理性知识
+
 ## 微前端
 
 <https://single-spa.js.org/>
@@ -486,7 +488,14 @@ hexdump file -C -n 1024
 
 > 播客
 
+**数字花园**
+
+<https://flomoapp.com/>
+
+
 ## 软技能
+
+<https://www.oreilly.com/>
 
 > 自驱
 
