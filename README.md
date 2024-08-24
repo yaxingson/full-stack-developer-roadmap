@@ -233,9 +233,54 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 #### 单元测试
 
+单元测试框架: 基础类库 + 测试运行器
+
+> 测试覆盖率和`Snapshot`快照测试
+
+```js
+// support async function test
+
+test('', (done)=>{
+ expect.assertions(1)
+
+ const callback = ()=>{
+   done()
+ }
+ 
+))
+
+test('', ()=>{
+ expect.assertions(1)
+
+ return fn().then((res)=>{
+  
+ })
+))
+
+test('', async ()=>{
+ expect.assertions(1)
+
+ await fn()
+ 
+))
+
+```
+
+```sh
+jest --coverage
+
+# snapshot测试的结果需要随着源代码一起提交
+jest --updateSnapshot
+
+```
+
+
 #### e2e测试
 
 > headless chrome 
+
+#### UI测试
+
 
 ### 自动化
 
