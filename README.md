@@ -306,13 +306,35 @@ jest --updateSnapshot
 - `LCP`
 - `CLS`
 
-获取用户数据指标的方式: Devtools、Lighthouse、浏览器插件和PerformanceAPI
+获取用户数据指标的方式: Devtools、[Lighthouse](https://github.com/GoogleChrome/lighthouse)、浏览器插件和PerformanceAPI
 
-CDN:
+第三方CDN服务平台:
 
 - [jsdelivr](https://www.jsdelivr.com/)
 - [unpkg](https://unpkg.com/)
 - [cdnjs](https://cdnjs.com/)
+
+懒加载:
+
+```js
+const intersectionObserver = new IntersectionObserver((entries) => {
+  if (entries[0].intersectionRatio <= 0) return
+
+  // TODO ...
+
+})
+
+intersectionObserver.observe(document.querySelector(".scrollerFooter"))
+
+```
+
+```html
+<meta name="referrer" content="no-referrer" />
+
+```
+
+> Gzip压缩
+
 
 ### 代码质量
 
