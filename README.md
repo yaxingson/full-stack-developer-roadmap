@@ -335,6 +335,17 @@ intersectionObserver.observe(document.querySelector(".scrollerFooter"))
 
 > Gzip压缩
 
+接口性能优化：
+
+- 关键指标:
+  - QPS（每秒查询）
+  - TPS（每秒事务）
+  - RT（响应时间）
+
+- 优化手段:
+  - 批量
+  - 异步
+  - 空间换时间
 
 ### 代码质量
 
