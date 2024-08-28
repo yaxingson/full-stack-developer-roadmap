@@ -575,7 +575,7 @@ hexdump file -C -n 1024
 
 <https://www.oreilly.com/>
 
-> 自驱
+> 自驱和刻意练习（目标和反馈）
 
 ### 英文
 
