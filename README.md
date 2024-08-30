@@ -347,6 +347,30 @@ intersectionObserver.observe(document.querySelector(".scrollerFooter"))
   - 异步
   - 空间换时间
 
+浏览器缓存策略: 
+
+- 强缓存
+ 
+- 协商缓存
+
+和浏览器缓存相关的请求和响应头:
+
+ - `Expires` 
+ - `Cache-Control`
+ - `If-Modified-Since`
+ - `Last-Modified`
+ - `Etag`
+ - `If-None-Match`
+
+```js
+window.chrome.loadTimes()
+
+
+```
+
+> DNS预解析
+
+ 
 ### 代码质量
 
 > 富客户端
