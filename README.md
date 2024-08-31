@@ -56,6 +56,9 @@ if(cluster.isPrimary) {
 
 [七牛云](https://www.qiniu.com/)
 
+> FASS(Function As A service)
+
+
 ## AI助手
 
 
