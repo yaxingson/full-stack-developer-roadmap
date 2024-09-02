@@ -35,7 +35,7 @@
 
 ## 云服务
 
-> 分布式架构
+> 分布式架构和同构网络
 
 ```js
 const cluster = require('node:cluster')
@@ -187,6 +187,8 @@ Object.freeze()
 - 迭代增量模式
 - 螺旋模式
 - **敏捷开发**模式
+
+### 调研
 
 ### 排版和设计
 
@@ -373,6 +375,7 @@ window.chrome.loadTimes()
 
 > DNS预解析
 
+白屏和无样式内容闪烁
  
 ### 代码质量
 
@@ -490,6 +493,8 @@ git rebase
 
 git stash save
 git stash pop
+
+git clone --depth=1
 
 ```
 
