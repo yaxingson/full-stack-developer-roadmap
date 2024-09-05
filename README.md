@@ -10,7 +10,7 @@
 
 **领域知识**
 
-技术体系：
+知识体系和系统学习：
 
 - 整理法(脑图): 顺序关系、组合关系、维度关系和分类关系
 - 追溯(追本溯源)法：论文、邮件列表讨论和代码提交记录
@@ -56,7 +56,7 @@ if(cluster.isPrimary) {
 
 [七牛云](https://www.qiniu.com/)
 
-> FASS(Function As A service)
+> FASS(Function As A service，函数即服务)
 
 
 ## AI助手
@@ -191,6 +191,11 @@ Object.freeze()
 ### 调研
 
 ### 排版和设计
+
+`UI Design`工具
+
+> webview和jsbridge
+
 
 #### 原型设计
 
@@ -464,6 +469,7 @@ window.matchMedia('print').addListener(()=>{
 <https://tc39.es/>
 
 <https://www.w3.org/>
+
 
 ## Git & Github
 
