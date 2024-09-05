@@ -192,9 +192,74 @@ Object.freeze()
 
 ### 排版和设计
 
-`UI Design`工具
+`UI Design`工具和设计稿
+
+```css
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+```
 
 > webview和jsbridge
+
+JS与移动端原生语言通信：
+
+- Android
+
+```java
+webView = new WebView(this);
+
+// android version < 4.4 
+webView.loadUrl("javascript: function_name(params)");
+
+runOnUiThread(new Runnable(){
+	@Override
+	public void run() {
+		webView.loadUrl("");
+
+	}
+})
+
+// android version >= 4.4
+webView.evaluateJavascript("javascript: function_name(params)", new ValueCallbak() {
+	@Override
+	public void onReceiveValue(String value) {
+
+	}
+})
+
+```
+
+```java
+// inject global object
+Object getJSBridge() {
+	Object innerObj = new Object() {
+		@JavascriptInterface
+		public String bar() {
+
+		}
+
+		@JavascriptInterface
+		public String foo() {
+
+		}
+	};
+
+	return innerObj; 
+}
+
+WebSettings settings = webView.getSettings();
+
+settings.setJavascriptEnabled(true);
+
+webView.addJavascriptInterface(getJSBridge(), "JSBridge");
+
+```
+
+- IOS
+
+> `URL Scheme`
 
 
 #### 原型设计
@@ -231,6 +296,8 @@ Object.freeze()
 ### 架构
 
 BFF(Backends For Frontends，服务于前端的后端)
+
+> JAM(Jamstack)架构
 
 #### 技术选型
 
