@@ -297,7 +297,8 @@ webView.addJavascriptInterface(getJSBridge(), "JSBridge");
 
 BFF(Backends For Frontends，服务于前端的后端)
 
-> JAM(Jamstack)架构
+> JAM(Jamstack, JavaScript、API & Markup)架构和元框架
+
 
 #### 技术选型
 
