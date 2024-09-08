@@ -27,11 +27,19 @@
 
 > 经验性知识和原理性知识
 
+能力模型
+
+站点地图
+
+
 ## 微前端
 
 <https://single-spa.js.org/>
 
 <https://qiankun.umijs.org/zh>
+
+> 沙箱技术
+
 
 ## 云服务
 
@@ -188,7 +196,7 @@ Object.freeze()
 - 螺旋模式
 - **敏捷开发**模式
 
-### 调研
+### 背景与调研
 
 ### 排版和设计
 
@@ -286,6 +294,9 @@ webView.addJavascriptInterface(getJSBridge(), "JSBridge");
 
 #### UI设计
 
+> canvas截图和暗水印
+
+
 #### 交互设计
 
 
@@ -297,7 +308,9 @@ webView.addJavascriptInterface(getJSBridge(), "JSBridge");
 
 BFF(Backends For Frontends，服务于前端的后端)
 
-> JAM(Jamstack, JavaScript、API & Markup)架构和元框架
+> JAM(Jamstack, JavaScript、API & Markup)架构和微内核架构
+
+元框架
 
 
 #### 技术选型
@@ -449,6 +462,11 @@ window.chrome.loadTimes()
 > DNS预解析
 
 白屏和无样式内容闪烁
+
+```html
+<img src="" alt="" loading="lazy">
+
+```
  
 ### 代码质量
 
