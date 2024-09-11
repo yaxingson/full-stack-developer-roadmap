@@ -128,6 +128,20 @@ nslookup -query=txt www.baidu.com
 
 > Dos攻击和中间人攻击
 
+B/S架构通信: 
+
+- 轮询
+- `websocket`全双工
+
+与websocket通信相关的HTTP头字段:
+
+- `Upgrade`
+- `Connection`
+- `Sec-Websocket-Key`
+- `Sec-Websocket-Version`
+- `Sec-Websocket-Extensions`
+
+
 ### XSS
 
 > 网络钓鱼攻击
