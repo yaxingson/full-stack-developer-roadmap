@@ -66,6 +66,12 @@ if(cluster.isPrimary) {
 
 > FASS(Function As A service，函数即服务)
 
+web应用架构:
+
+- 单体架构
+
+- 微服务架构
+
 
 ## AI助手
 
@@ -318,13 +324,14 @@ webView.addJavascriptInterface(getJSBridge(), "JSBridge");
 
 API: 一组用于构建和集成应用程序的定义和协议
 
-> SOAP（Single Object Access Protocol）协议和rpc技术机制
+> SOAP（Single Object Access Protocol）协议和rpc（Remote Procedure Call）技术机制
 
 
 - [grpc](https://grpc.io/)
 
 - [trpc](https://trpc.io/)
 
+> Protocol Buffers
 
 
 ### 重构
