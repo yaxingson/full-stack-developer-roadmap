@@ -729,7 +729,7 @@ hexdump file -C -n 1024
 
 <https://imagemagick.org/script/download.php>
 
-> 播客
+> 播客和个人订阅号
 
 **数字花园**
 
