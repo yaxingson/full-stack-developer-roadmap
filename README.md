@@ -124,6 +124,9 @@ DNS缓存：浏览器缓存 -> 操作系统缓存 -> 路由器缓存 -> ISP缓�
 
 > 浏览器内置预加载`HSTS`列表
 
+<img src="https://img.picui.cn/free/2024/09/17/66e96cdf78e8b.png" width="80%" />
+
+
 ```sh
 nc 92.168.19.10 80
 
