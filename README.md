@@ -67,7 +67,7 @@ if(cluster.isPrimary) {
 
 [七牛云](https://www.qiniu.com/)
 
-> FASS(Function As A service，函数即服务)
+> FaaS(Function As A service，函数即服务)和BaaS(Backend As A Service, 后端即服务)
 
 web应用架构:
 
