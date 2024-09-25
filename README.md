@@ -605,6 +605,8 @@ window.matchMedia('print').addListener(()=>{
 
 ## 国际化
 
+> 本地化和全球化
+
 
 ## Git & Github
 
