@@ -747,6 +747,8 @@ hexdump file -C -n 1024
 
 <https://flomoapp.com/>
 
+> 视觉笔记（抽象化和具象化）
+
 
 ## 软技能
 
