@@ -36,6 +36,8 @@
 
 > V8垃圾回收
 
+RFC文档
+
 
 ## 微前端
 
@@ -108,6 +110,8 @@ cache:<url>
 
 ## web网络和安全
 
+![](https://img.picui.cn/free/2024/09/27/66f6afc816a46.png)
+
 <http://test-ipv6.com/>
 
 相关概念:
@@ -160,6 +164,8 @@ B/S架构通信:
 - `Sec-Websocket-Key`
 - `Sec-Websocket-Version`
 - `Sec-Websocket-Extensions`
+
+> 心跳机制
 
 
 ### XSS
@@ -621,10 +627,12 @@ git diff
 
 git rm --cached
 
+git mv 
+
 git check-ignore -v file
 git chery-pick <commitHash> 
 
-git log --stat
+git log --stat --all -n3
 
 git show <id>
 
@@ -640,6 +648,10 @@ git stash save
 git stash pop
 
 git clone --depth=1
+
+git help --web log
+
+gitk
 
 ```
 
