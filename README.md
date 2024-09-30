@@ -649,6 +649,8 @@ git stash pop
 
 git clone --depth=1
 
+git config core.hooksPath <path>
+
 git help --web log
 
 gitk
