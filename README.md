@@ -437,6 +437,8 @@ jest --updateSnapshot
 
 #### 持续部署
 
+> 灰度发布
+
 ## 性能
 
 > 垃圾回收、时间切片(Time Slicing)和Bundleless
