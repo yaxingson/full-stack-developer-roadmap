@@ -50,7 +50,7 @@ RFC文档
 
 ## 云服务
 
-> 分布式架构和同构网络
+> 服务端接入层、分布式架构和同构网络
 
 ```js
 const cluster = require('node:cluster')
