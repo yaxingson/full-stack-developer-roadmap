@@ -238,6 +238,9 @@ Object.freeze()
 
 ### 背景与调研
 
+项目排期和复盘
+
+
 ### 排版和设计
 
 `UI Design`工具和设计稿
@@ -366,6 +369,8 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 元框架
 
+> `multirepo` vs. `monorepo`
+
 
 #### 技术选型
 
@@ -379,6 +384,8 @@ BFF(Backends For Frontends，服务于前端的后端)
 ### 测试
 
 #### 单元测试
+
+回归测试
 
 单元测试框架: 基础类库 + 测试运行器
 
