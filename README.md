@@ -725,7 +725,7 @@ git cherry-pick id
 
 ```
 
-> 代码评审（code review）
+> 代码评审（code review）和复盘
 
 ### wiki
 
