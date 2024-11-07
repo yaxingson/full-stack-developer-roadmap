@@ -177,6 +177,7 @@ B/S架构通信:
 - 反射型攻击
 
 ```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es2022"></script>
 <div style="width: expression(alert(0))"></div>
 
 <a href="java
