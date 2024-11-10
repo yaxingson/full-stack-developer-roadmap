@@ -386,9 +386,9 @@ BFF(Backends For Frontends，服务于前端的后端)
 
 ### 测试
 
-#### 单元测试
+> 回归测试、冒烟测试
 
-回归测试
+#### 单元测试
 
 单元测试框架: 基础类库 + 测试运行器
 
@@ -437,6 +437,9 @@ jest --updateSnapshot
 > headless chrome 
 
 #### UI测试
+
+
+#### api测试
 
 
 ### 自动化
