@@ -672,6 +672,9 @@ git help --web log
 
 gitk
 
+git lfs install
+git lfs track "*.mp4"
+
 ```
 
 [.gitignore模板](https://github.com/github/gitignore)
