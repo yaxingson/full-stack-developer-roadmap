@@ -65,7 +65,27 @@ Below you can find a chart demonstrating the paths that you can take and the lib
      - [express]()
      - [koa]()
 
-5. General Development Skills
+   - testing
+
+     - unit testing
+       
+       - [jest]()
+       - [mocha]()
+       - [vitest]()
+     
+     - end-to-end testing
+       
+       - [cypress]()
+       - [puppeteer]()
+       - [playwright]()
+
+   - cross-terminal
+     
+     - desktop: [electron]() 
+
+5. Utility Libraries
+
+6. General Development Skills
 
    - Use google Search.
    - Get familiar with terminal, configure your shell (bash, zsh, fish).
