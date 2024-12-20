@@ -14,13 +14,61 @@ Below you can find a chart demonstrating the paths that you can take and the lib
 
 ## Resources
 
-1. General Development Tools
+1. Download Tools
    
    - [sublime text](https://www.sublimetext.com/)
    - [visual studio code](https://code.visualstudio.com/)
    - [webstorm](https://www.jetbrains.com/webstorm/)
    - [git](https://git-scm.com/)
    - [chrome]()
+
+2. Prerequisite knowledge
+  
+   - [HTTP]()
+   - [datastruct & algorithm]()
+   - [design pattern]()
+  
+3. Basic
+   
+   - [html]()
+   - [css]()
+     
+     - preprocessor: [less]()、[sass]()、[stylus]() & [postcss]()
+     - frameworks: [bootstrap]()、[materialize]() & [tailwindcss]()
+     - architecture: [BEM]()、[CSS Modules]()、[Atomic]() & [OOCSS]()
+     - css in js: [styled-components]() & [emotion]()
+
+   - [javascript]()
+   - [typescript]()
+   - [node]()
+  
+     - package managers: [npm]()、[yarn]() & [pnpm]()
+     - task runners: [npm scripts]() & [gulp]()
+     - build tools: [webpack]()、[rollup]() & [vite]()
+
+4. Advanced
+
+   - frontend frameworks
+
+     - [vue]()
+       
+       - state management: [vuex]() & [pinia]() 
+
+
+     - [react]()
+       
+       - state management: [redux]() & [mobx]()
+
+
+   - backend frameworks
+
+     - [express]()
+     - [koa]()
+
+5. General Development Skills
+
+   - Use google Search.
+   - Get familiar with terminal, configure your shell (bash, zsh, fish).
 
 
 ## Contribution
