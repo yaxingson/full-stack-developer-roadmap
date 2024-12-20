@@ -14,6 +14,15 @@ Below you can find a chart demonstrating the paths that you can take and the lib
 
 ## Resources
 
+1. General Development Tools
+   
+   - [sublime text](https://www.sublimetext.com/)
+   - [visual studio code](https://code.visualstudio.com/)
+   - [webstorm](https://www.jetbrains.com/webstorm/)
+   - [git](https://git-scm.com/)
+   - [chrome]()
+
+
 ## Contribution
 
 ## License
