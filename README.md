@@ -29,6 +29,7 @@ Below you can find a chart demonstrating the paths that you can take and the lib
    - [HTTP]()
    - [datastruct & algorithm]()
    - [design pattern]()
+   - [linux]()
   
 3. Basic
    
@@ -67,6 +68,12 @@ Below you can find a chart demonstrating the paths that you can take and the lib
      - [express]()
      - [koa]()
 
+   - database
+
+     - [mysql]()
+     - [mongodb]()
+     - [redis]()
+
    - testing
 
      - unit testing
@@ -83,7 +90,8 @@ Below you can find a chart demonstrating the paths that you can take and the lib
 
    - cross-terminal
      
-     - desktop: [electron]() 
+     - desktop: [electron]()
+     - mobile: [react-native]()
 
 5. Utility Libraries
 
