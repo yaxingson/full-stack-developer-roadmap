@@ -1,4 +1,4 @@
-# Web Developer Roadmap
+# Full Stack Developer Roadmap
 
 English &nbsp; | &nbsp; [Chinese](./README.zh-CN.md)
 
