@@ -12,6 +12,8 @@ Below you can find a chart demonstrating the paths that you can take and the lib
 
 ## Roadmap
 
+![](./full-stack-developer-roadmap.png)
+
 ## Resources
 
 1. Download Tools
