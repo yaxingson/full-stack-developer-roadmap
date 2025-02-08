@@ -100,6 +100,13 @@ Below you can find a chart demonstrating the paths that you can take and the lib
    - Use google Search.
    - Get familiar with terminal, configure your shell (bash, zsh, fish).
 
+7. Ai Tools
+
+ - <https://v0.dev/>
+ - <https://bolt.new/>
+ - <https://copycoder.ai/>
+ - <https://github.com/features/copilot>
+
 
 ## Contribution
 
